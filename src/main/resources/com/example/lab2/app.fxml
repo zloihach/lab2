@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Copyright (c) 2015, 2019, Gluon and/or its affiliates.
+  All rights reserved. Use is subject to license terms.
+
+  This file is available and licensed under the following license:
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+
+  - Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+  - Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in
+    the documentation and/or other materials provided with the distribution.
+  - Neither the name of Oracle Corporation nor the names of its
+    contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+  "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+  A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+  OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+  SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+  LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+  DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+
+<?import io.github.palexdev.materialfx.controls.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="880.0" prefWidth="1269.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="1060.0" prefWidth="1493.0" style="-fx-background-color: #CFDEF3;" VBox.vgrow="ALWAYS">
+         <children>
+            <Pane layoutX="225.0" layoutY="95.0" prefHeight="690.0" prefWidth="820.0" style="-fx-background-color: #FAFBFF;">
+               <children>
+                  <MFXPasswordField allowCopy="true" floatingText="Пароль" layoutX="228.0" layoutY="367.0" prefHeight="48.0" prefWidth="364.0">
+                     <textFill>
+                        <Color red="0.03359999880194664" green="0.16501332819461823" blue="0.2800000011920929" />
+                     </textFill>
+                  </MFXPasswordField>
+                  <MFXTextField floatingText="Email" layoutX="228.0" layoutY="304.0" prefHeight="48.0" prefWidth="364.0">
+                     <textFill>
+                        <Color red="0.03359999880194664" green="0.16501332819461823" blue="0.2800000011920929" />
+                     </textFill>
+                  </MFXTextField>
+                  <MFXButton depthLevel="LEVEL1" layoutX="433.0" layoutY="463.0" prefHeight="48.0" prefWidth="159.0" style="-fx-background-color: #5C74F4;" text="Войти" textFill="WHITE">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </MFXButton>
+                  <MFXCheckbox layoutX="228.0" layoutY="476.0" text="Запомнить пароль" textFill="#5c74f4">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </MFXCheckbox>
+                  <Text fill="#092c4c" layoutX="229.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Добро пожаловать!">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#092c4c" layoutX="344.0" layoutY="445.0" stroke="#092c4a" strokeType="OUTSIDE" strokeWidth="0.0" text="Забыли пароль?" underline="true">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Text fill="#5c74f4" layoutX="564.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dental">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Text>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
